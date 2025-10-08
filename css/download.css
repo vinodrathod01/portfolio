@@ -1,0 +1,31 @@
+/* Download Section */
+#download {
+  background-color: #e9ecef;
+}
+
+#download h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+#download p {
+  color: #555;
+  font-size: 1rem;
+}
+
+#download .btn {
+  border-radius: 8px;
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#download .btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#download .btn-secondary:hover {
+  background-color: #6c757d;
+  transform: scale(1.05);
+}

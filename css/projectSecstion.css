@@ -1,0 +1,30 @@
+/* Projects Section */
+#projects .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#projects .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+#projects .card-title {
+  font-weight: 600;
+}
+
+#projects .card-text {
+  font-size: 0.9rem;
+}
+
+#projects .card-footer {
+  background-color: transparent;
+  border-top: none;
+}
+
+.github-link img {
+  transition: transform 0.3s;
+}
+
+.github-link img:hover {
+  transform: scale(1.2);
+}

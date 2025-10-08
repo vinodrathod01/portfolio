@@ -1,0 +1,21 @@
+/* Education Section */
+#education .education-card {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#education .education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+#education h5 {
+  font-weight: 600;
+  color: #333;
+}
+
+#education p {
+  color: #555;
+  font-size: 0.95rem;
+}

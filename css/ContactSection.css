@@ -1,0 +1,36 @@
+/* Contact Section */
+#contact {
+  background-color: #f4f6f8; /* Soft formal background */
+}
+
+#contact h2 {
+  font-weight: 600;
+  color: #333;
+}
+
+#contact .form-label {
+  font-weight: 500;
+  color: #555;
+}
+
+#contact .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#contact .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+#contact .btn-primary {
+  border-radius: 8px;
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+#contact .btn-primary:hover {
+  background-color: #0056b3;
+}
